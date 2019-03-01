@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- BootstarpCDN -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<style>
+*{
+    margin: 0px;
+    padding:0px;
+}
+.intro-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.main-container{
+    width:900px;
+}
+
+@media screen and (max-width:991px){
+    #break1{
+    font-size: 40px;
+    }
+    #break2{
+    font-size: 19px;
+    }
+    #break3{
+    font-size: 16px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #break1{
+    font-size: 30px;
+    }
+    #break2{
+    font-size: 13.5px;
+    }
+    #break3{
+    font-size:14px;
+    }
+}
+
+@media screen and (max-width:555px){
+    #break1{
+    font-size: 32px;
+    }
+    #break2{
+    font-size: 18px;
+    }
+    #break3{
+    font-size:14px;
+    }
+    #down{
+    display: flex;
+    flex-direction: column;
+    }
+    #div1{
+    order: 1;
+    }
+    #div2{
+    order: 2;
+    }
+    #logo{
+    width: 75%;
+    }
+}
+
+@media screen and (min-width:992px){
+    #break1{
+    font-size: 45px;
+    }
+    #break2{
+    font-size: 22px;
+    }
+    #break3{
+    font-size: 18px;
+    }
+    .container{
+    width: 800px;
+    }
+}
+
+/* SHIFT */
+ul.nav li a {
+    position:relative;
+    z-index: 1;
+}
+ul.nav li a:hover {
+    color: #91640F;
+}
+ul.nav li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: lightgrey;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+ul.nav li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+</style>
+
+<title>Portfolio : Ujjwal</title>
+</head>
+<body >
+
+        <div class="container" >
+            <div id='logo'>
+           
+            </div>
+        
+        <div id='nav'>
+            <div class="row">
+                <div class="col" style="border-top:2px solid #9a9ea5; border-bottom: 2px solid #9a9ea5;">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item shift">
+                        <a class="nav-link" href="about.html" style="color:black;">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="100daychallenge.html" style="color:black;">100 DAYS CHALLENGE</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="projects.html" style="color:black;">PROJECTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+            <div class="row intro-row" id="down" style="border-bottom: 2px solid #9a9ea5;">
+                <div class="col" id="div1"><img src="ujjwal2.jpg" style="border-radius: 18px; max-width: 100%; max-height: 100%"></div>
+                <div class='col' id="div2" ><div class="content" style="margin-top:15px;"><h1 id="break1" style="font-weight: bold;">Hi, I'm Ujjwal.</h1> <br> <p id="break2" > I created this site to document everything I learn, and share a bit of myself with the world. Nothing can beat the joy of sharing knowledge
+            and making others grow. That's exactly what I intend to do with this site. If you enjoy my content, please consider supporting.</p></div></div>
+                </div>
+                <div class-"row" id="blog1">
+                    <div class="col">
+                        <h2 >Making dreams come true.</h2>
+                        <div id='root'></div>
+                        <h6 style="font-style: italic;">20-02-2019</h6>
+                    </div>
+                    <div class="col" >
+                    <img src="ths_result.jpeg" style="max-width: 100%; max-height: 100%; margin-bottom: 10px;">
+                    <p id="break3"> Believe it or not, dreams are an integral part of our lives. Whether small or big, we all dream in some capacity, it's our inherent tendency that's impossible to diminish.
+                    While we all share this bond of dreaming but not many people have the courage to uproot their lives to follow their dreams. I am not one of them and neither are my fellow bootcampers
+                    at <strong>The Hacking School - India's First Coding Bootcamp</strong> who come from around the country and some even other parts of the world.<br><br>
+                    Eyeing on a common goal of becoming a full stack web developer and making our lives purposeful, we started the bootcamp with some inspirational sessions from Meraj Faheem, <span style="font-style:italic;">CEO, The Hacking School</span> and 
+                    our instructor Prashanth Teja, <span style="font-style: italic">CTO, Cedura</span>. Both insisted on the idea of chasing dreams, and advised us to build fast and plenty which literally filled our hearts with immense motivation.<br><br>
+                    To some going for ambitions seems a far-fetched idea. It sure is, but with enough motivation, support and a constructive environment anything is attainable, and that's what The Hacking School is providing us, a platform to follow our dreams and passion
+                    of becoming a better us and building something meaningful. Very true that the journey has just started and there is still a long way to go but as legendary Walter Disney said, <span style="font-style: italic;">"All our dreams can come true, if we have the courage to pursue them"</span>, we hope to keep our heads up and hearts open till we reach our destination.<br><br>
+                    To know more about our pursuit, stay tuned!
+                    </p>
+                    </div>
+                </div>
+       
+        <br>
+        <br>
+
+            <footer class="page-footer font-small" style="background-color: #090f19">
+                <div class="container" style="width:100%;">
+                    <div class="row">
+                        <div class="col-md-12" style="padding-top:10px;">
+                            <div class="mb-3 text-center">
+                                <a class="git-ic" href="https://github.com/uvshrivass">
+                                <i class="fab fa-github pr-4 pl-4 fa-2x" style="color: white;"> </i>
+                                </a>
+
+                                <a class="tw-ic" href="https://twitter.com/shrivasuv">
+                                <i class="fab fa-twitter pr-4 pl-4 fa-2x" style="color: white;"> </i>
+                                </a>
+
+
+                                <a class="li-ic" href="https://in.linkedin.com/in/ujjwalshrivas">
+                                <i class="fab fa-linkedin-in pr-4 pl-4 fa-2x" style="color: white;"> </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright text-center" style="color:white">© 2019 Copyright | <a href="portfolio.html">uvshrivas.com</a></div>
+        </footer>
+
+    </div>
+</body>
+</html>
