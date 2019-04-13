@@ -19,9 +19,9 @@ const App = () => {
             <BrowserRouter>
             <header>
                     <Link to='/'>Home</Link><br />
-                    <Link to='/profile'>Profile</Link><br />
-                    <Link to='/posts'>Posts</Link><br />
-                    <Link to='/contact'>Contact</Link><br />
+                    <Link to='/profile'>Profile</Link>
+                    <Link to='/posts'>Posts</Link>
+                    <Link to='/contact'>Contact</Link>
             </header>
                     <Route path='/' exact component={Home} />
                     <Route path='/profile' component={Profile} />
